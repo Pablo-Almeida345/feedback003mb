@@ -19,7 +19,7 @@ export function App () {
     alert("Please, choose a note!")
   }
   return(
-    notaAvaliacao === 0 ? (
+    submited === 0 ? (
       <div className="bg-gradient-dark text-white mx-6 p-6 rounded-2xl font-overpass max-w-103">
       <div className="bg-dark-blue w-fit p-4 rounded-full mb-4">
         <img src={IconStar} alt="Icon start" />
